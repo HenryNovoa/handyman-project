@@ -1,0 +1,19 @@
+
+
+
+.searchbar-container{
+    padding: 20px;
+    margin: 20px;
+  }
+
+  option {
+    font-size: 0.75em;
+  }
+  
+  .searchbar {
+    background-image: url('./images/handymanimage.jpg');
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  

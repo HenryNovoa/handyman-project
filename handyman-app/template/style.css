@@ -1,0 +1,22 @@
+.post {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.post textarea {
+    background: transparent;
+    border: none;
+    width: inherit;
+    height: 160px;
+    resize: none;
+}
+
+.fa-sticky-note {
+    color: gold;
+}
+
+.error {
+    color: red;
+}

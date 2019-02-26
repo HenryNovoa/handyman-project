@@ -1,0 +1,35 @@
+{
+  "name": "handyman-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "debug": "node debug .",
+    "test": "mocha logic",
+    "debug-test": "mocha debug logic",
+    "coverage" : "nyc mocha logic/index.spec.js",
+    "coverage-report": "nyc report --reporter=html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "busboy": "^0.2.14",
+    "cloudinary": "^1.13.2",
+    "express": "^4.16.4",
+    "handyman-data": "file:../handyman-data",
+    "jsonwebtoken": "^8.3.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^6.1.0",
+    "fs-extra": "^7.0.1",
+    "hasha": "^3.0.0",
+    "nyc": "^13.1.0",
+    "stream-to-array": "^2.3.0",
+    "text2png": "^2.1.0"
+  }
+}
